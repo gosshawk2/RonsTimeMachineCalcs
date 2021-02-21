@@ -267,12 +267,12 @@ Partial Class FrmCalculate
         '
         'TxtDiodePower
         '
-        Me.TxtDiodePower.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtDiodePower.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtDiodePower.Location = New System.Drawing.Point(319, 62)
         Me.TxtDiodePower.Name = "TxtDiodePower"
-        Me.TxtDiodePower.Size = New System.Drawing.Size(45, 26)
+        Me.TxtDiodePower.Size = New System.Drawing.Size(59, 22)
         Me.TxtDiodePower.TabIndex = 14
-        Me.TxtDiodePower.Text = "100"
+        Me.TxtDiodePower.Text = "1,000,000"
         '
         'Label8
         '
@@ -287,7 +287,7 @@ Partial Class FrmCalculate
         'TxtDiodeHeight
         '
         Me.TxtDiodeHeight.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtDiodeHeight.Location = New System.Drawing.Point(372, 63)
+        Me.TxtDiodeHeight.Location = New System.Drawing.Point(384, 63)
         Me.TxtDiodeHeight.Name = "TxtDiodeHeight"
         Me.TxtDiodeHeight.Size = New System.Drawing.Size(55, 22)
         Me.TxtDiodeHeight.TabIndex = 16
@@ -297,7 +297,7 @@ Partial Class FrmCalculate
         '
         Me.Label9.BackColor = System.Drawing.Color.LightSkyBlue
         Me.Label9.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(373, 10)
+        Me.Label9.Location = New System.Drawing.Point(385, 10)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 50)
         Me.Label9.TabIndex = 17

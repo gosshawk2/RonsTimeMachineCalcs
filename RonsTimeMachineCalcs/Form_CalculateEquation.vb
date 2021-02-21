@@ -166,17 +166,20 @@
         Dim HeightResult As Double
 
         PowerResult = CalculatePowerOutput()
-        txtLaserIntensity.Text = CDbl(PowerResult)
+        txtLaserIntensity.Text = CStr(PowerResult)
         HeightResult = CalcTowerHeight()
-        TxtLaserTowerHeight.Text = CDbl(HeightResult)
+        TxtLaserTowerHeight.Text = CStr(HeightResult)
     End Sub
 
     Private Sub TxtDiodePower_Leave(sender As Object, e As EventArgs) Handles TxtDiodePower.Leave
         'Calculate Total Power Output of laser:
         Dim Result As Double
+        Dim Result2 As Double
 
         Result = CalculatePowerOutput()
-        txtLaserIntensity.Text = CDbl(Result)
+        Result2 = CalcTowerHeight()
+        txtLaserIntensity.Text = CStr(Result)
+        TxtLaserTowerHeight.Text = CStr(Result2)
     End Sub
 
     Private Sub TxtDiodeHeight_Leave(sender As Object, e As EventArgs) Handles TxtDiodeHeight.Leave
